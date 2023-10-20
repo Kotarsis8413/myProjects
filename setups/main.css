@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 22%;
+    user-select: none;
+}
+
+input {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.gotovo {
+    color: red;
+    font-size: 30px;
+    user-select: all;
+}
+
+audio {
+    border-radius: 15px;
+}
+audio:playing {
+    background-color: red;
+}
